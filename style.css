@@ -274,6 +274,14 @@ h3 {
 
 }
 
+.carousel-inner img
+{
+    width: 460px;
+    max-height: 460px;
+}
+
+
+
 @media (max-width:748px) {
 
     .grid-container
