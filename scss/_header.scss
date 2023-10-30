@@ -27,7 +27,7 @@ img{
 
 
 h1 {
-   font-family: "Dancing script";
+   font-family: $principal;
    font-size: 60px;
 
 }
@@ -42,11 +42,11 @@ h2 {
  
  }
 
- @media (max-width:758px) {
+ @media (max-width: 758px) {
 
- .h1 
+ .nombre 
   {
-   font-size: 10px
+   font-size: 10px !important;
   }
 
 }
