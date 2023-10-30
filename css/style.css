@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.container-fluid-header {
+  background-color: rgb(218, 197, 224);
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  padding: 15px;
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+img {
+  border-radius: 6% 6% 6% 6%;
+}
+
+h1 {
+  font-family: "Dancing script";
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Dancing script";
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+@media (max-width: 758px) {
+  .h1 {
+    font-size: 10px;
+  }
+}
+.contenido-uno {
+  background-color: rgb(230, 228, 228);
+}
+
+.parrafo {
+  margin-top: 200px;
+}
+
+.card {
+  margin-top: 200px;
+}
+
+.container-fluid-main {
+  background-color: whitesmoke;
+}
+
+.su-foto {
+  padding-top: 100px;
+}
+
+.container-fluid-footer {
+  background-color: rgb(218, 197, 224);
+}
+
+ul {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  grid-gap: 20px;
+  grid-gap: 1em;
+  grid-gap: 3vmin;
+  grid-gap: 0.5cm;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.card-sobremi {
+  margin-top: 150px;
+  background-color: rgb(233, 233, 223);
+}
+
+.btn {
+  background-color: lightpink;
+}
+
+h4 {
+  font-family: "Dancing script";
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.form {
+  padding-top: 100px;
+  background-color: lightgray;
+}
+
+.slide {
+  margin-top: 100px;
+  width: 600px;
+}
+
+.slide img {
+  height: 565px;
+  width: 567px;
+}
+
+.video {
+  margin-top: 100px;
+}
+
+.nav-item {
+  transition: background-color 5s;
+}
+.nav-item:hover {
+  background-color: blueviolet;
+}
+
+.animate__animated.animate__flipInX {
+  --animate-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+p {
+  padding: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

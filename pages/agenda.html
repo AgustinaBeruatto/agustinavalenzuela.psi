@@ -1,68 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agustina Valenzuela - Psicologa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    <div class="grid-container2">      
-        <header class="header">
-            <h2>ALQUIMIA</h2>
-           
-            <div class="inicio">
-             <a href="../index.html"> Inicio</a>
-            </div>
-             <div class="Sobre mi">
-                 <a href="../pages/sobremi.html">Sobre Mi</a>
-             </div>
-             <div class="Contacto">
-                 <a href="../pages/contacto.html">Contacto</a>
-             </div>
-             <div class="Agenda">
-                 <a href="../pages/agenda.html">Agenda</a>
-             </div>
-             <div class="Talleres">
-                 <a href="../pages/atencionclinica.html">Atención Clinica</a>
-             </div>
-             <div class="Espacio">
-                 <a href="../pages/espacio.html">Espacio</a>
-                 
-             </div>
+  <header class="container-fluid-header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand col-2" href="#">
+        <img src="../img/logo.jpeg" width="200" height="200" alt="logo">
+      </a>
+      <h1 class="nombre col-2">ALQUIMIA</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse col-8 justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav h5 pb-2 mb-4 text-danger border-bottom border-black">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html"><img src="../img/house-heart-fill.svg"
+                alt="">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sobremi.html+">Sobre Mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="./atencionclinica.html">Atención Clinica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./espacio.html">Espacio</a>
+          </li>
+        </ul>
 
-        </header>
-        <nav class="nav">
-            <div class="logo">
-                <img src="../img/logo.jpeg" width="200" height="200" alt="logo">
-            </div>
-        </nav>
-        <section class="section1">
-            <h1 class="titulo">Psicóloga</h1><br>
-            <h1 class="titulo"> Lic. Agustina Valenzuela</h1>
-        </section>
-        <section class="section4">
-        <img src="../img/Agenda.jpg" alt="">
-    </section>
+    </nav>
 
-        <FOOTer class="footer">
+  </header>
+  <main class="container-fluid-main">
+    <div class="row">
+      <div class="contenido-uno text-center border border-secondary">
+        <h2 class="titulo animate__animated animate__flipInX">Psicóloga</h2><br>
+        <h2 class="titulo animate__animated animate__flipInX"> Lic. Agustina Valenzuela</h2>
+      </div>
+      <div class="container text-center">
+        <img src="../img/Agenda.jpg" width="334" height="470" alt="Imgaen de Agenda">
+      </div>
+      <div class="botton-ingresar text-center">
+        <a class="btn btn-outline-dark " href="./ingreso.html" role="button"> <img src="../img/person-circle.svg"
+            alt=""> Ingresar</a>
+      </div>
+  </main>
+  <FOOTer class="container-fluid-footer row pt-5 pb-4">
 
-            <div class="redes">
-                <ul>
-                    <a href="https://www.facebook.com/aguuvalenzuela?locale=es_LA" target="_blank"><img
-                            src="../img/facebook.png" width="25" height="25" alt="Icono Facebook"></a><br>
-                    <a href="https://www.instagram.com/psi.alquimia/" target="_blank"><img src="../img/instagram.png"
-                            width="25" height="25" alt="Icono instagram"></a><br>
-                    <a href="https://ar.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F"
-                        target="_blank"><img src="../img/logotipo-de-linkedin.png" width="25" height="25"
-                            alt="Icono linkedin"></a><br>
-                    <img src="../img/whatsapp.png" width="25" height="25" alt="Icono whatsapp"><br>
-                    <img src="../img/correo-electronico.png" width="25" height="25" alt="icono correo-electronico">
-                </ul>
-                <h3>Copyright © 2023 Todos los derechos reservados</h3>
-            </div>
+    <div class=" text-center row ">
+      <ul class="col-lg-12 col-sm-12 col-xl-12 col-md-12 mx-auto mt-3">
+        <a href="https://www.facebook.com/aguuvalenzuela?locale=es_LA" target="_blank"><img src="../img/facebook.png"
+            width="25" height="25" alt="Icono Facebook"></a><br>
+        <a href="https://www.instagram.com/psi.alquimia/" target="_blank"><img src="../img/instagram.png" width="25"
+            height="25" alt="Icono instagram"></a><br>
+        <a href="https://ar.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><img
+            src="../img/logotipo-de-linkedin.png" width="25" height="25" alt="Icono linkedin"></a><br>
+        <a href=""> <img src="../img/whatsapp.png" width="25" height="25" alt="Icono whatsapp"><br></a>
+        <a href=""><img src="../img/correo-electronico.png" width="25" height="25" alt="icono correo-electronico"></a>
+      </ul>
+      <h3>Copyright © 2023 Todos los derechos reservados</h3>
+    </div>
 
-        </FOOTer>
-        </div>
+  </FOOTer>
+
 </body>
+
 </html>
