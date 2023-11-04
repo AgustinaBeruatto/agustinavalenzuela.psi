@@ -22,6 +22,9 @@ ul {
 
 img{
     border-radius: 6% 6% 6% 6%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+  
 
 }
 
@@ -44,6 +47,20 @@ h2 {
 
  @media (max-width: 758px) {
     .nombre.col-2 {
-      font-size: 30px; /* Tamaño de fuente para pantallas más pequeñas */
+      font-size: 20px; /* Tamaño de fuente para pantallas más pequeñas */
     }
+ 
+  }
+  @media (max-width: 1287px){
+    .nombre.col-2 {
+      font-size: 40px; /* Tamaño de fuente para pantallas más pequeñas */
+    }
+   
+  }
+  @media (max-width: 1030px){
+    .nombre.col-2 {
+      font-size: 25px; /* Tamaño de fuente para pantallas más pequeñas */
+   
+
+   }
   }
