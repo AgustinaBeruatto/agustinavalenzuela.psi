@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: cursive;
 }
 
 .container-fluid-header {
@@ -40,6 +39,7 @@ h2 {
 
 p {
   font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media (max-width: 758px) {
