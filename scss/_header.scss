@@ -46,15 +46,20 @@ h2 {
  
  }
 
+
  @media (max-width: 758px) {
     .nombre.col-2 {
-      font-size: 20px; /* Tamaño de fuente para pantallas más pequeñas */
+      font-size: 10px; /* Tamaño de fuente para pantallas más pequeñas */
     }
+    .logo-inicial{
+      width: 100px;
+      height: 100px;
+  }
  
   }
   @media (max-width: 1287px){
     .nombre.col-2 {
-      font-size: 40px; /* Tamaño de fuente para pantallas más pequeñas */
+      font-size: 30px; /* Tamaño de fuente para pantallas más pequeñas */
     }
    
   }

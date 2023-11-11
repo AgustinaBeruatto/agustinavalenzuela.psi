@@ -44,12 +44,16 @@ p {
 
 @media (max-width: 758px) {
   .nombre.col-2 {
-    font-size: 20px; /* Tamaño de fuente para pantallas más pequeñas */
+    font-size: 10px; /* Tamaño de fuente para pantallas más pequeñas */
+  }
+  .logo-inicial {
+    width: 100px;
+    height: 100px;
   }
 }
 @media (max-width: 1287px) {
   .nombre.col-2 {
-    font-size: 40px; /* Tamaño de fuente para pantallas más pequeñas */
+    font-size: 30px; /* Tamaño de fuente para pantallas más pequeñas */
   }
 }
 @media (max-width: 1030px) {
@@ -66,9 +70,15 @@ p {
 }
 
 .card {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 20px;
   margin-right: 10px;
+  height: 800px;
+}
+
+.logo-inicial {
+  width: 200px;
+  height: 200px;
 }
 
 .container-fluid-main {
@@ -77,6 +87,11 @@ p {
 
 .su-foto {
   padding-top: 50px;
+}
+
+.foto-presentacion {
+  width: 400px;
+  height: 400px;
 }
 
 .container-fluid-footer {
@@ -99,9 +114,10 @@ h3 {
   font-size: 16px;
 }
 
-.card-sobremi {
+.card-sobremi2 {
   margin-top: 50px;
   background-color: rgb(233, 233, 223);
+  height: 800px;
 }
 
 .card-body {
